@@ -12,3 +12,16 @@ function updateTime() {
 setInterval(updateTime, 1000);
 
 updateTime();
+
+const today = new Date();
+const day = today.getDate();
+const months = [
+  "janvier", "février", "mars", "avril", "mai", "juin",
+  "juillet", "août", "septembre", "octobre", "novembre", "décembre"
+];
+const month = months[today.getMonth()];
+const year = today.getFullYear();
+
+const currentDate = `${day} ${month} ${year}`;
+
+document.getElementById("date").textContent = currentDate;

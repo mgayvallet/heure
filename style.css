@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
 @font-face {
   font-family: 'digital-7';
   src: url('public/digital-7.ttf') format('truetype');
@@ -34,4 +36,12 @@ body {
   text-align: center;
   font-size: 35px;
   font-weight: 400;
+}
+
+
+#date{
+  font-family: Arimo;
+  margin-top: 10px;
+  font-weight: 900;
+  letter-spacing: 1px;
 }
