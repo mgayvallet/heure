@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'digital-7';
+  src: url('public/digital-7.ttf') format('truetype');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +10,7 @@
 }
 
 body {
+  font-family: 'digital-7', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,4 +34,4 @@ body {
   text-align: center;
   font-size: 35px;
   font-weight: 400;
-} 
+}
